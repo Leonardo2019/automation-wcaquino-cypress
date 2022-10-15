@@ -46,7 +46,7 @@ describe('Login barriga test', () => {
        
     })
 
-    it.only('Alterar conta', () => {
+    it('Alterar conta', () => {
         cy.request({
             method: 'GET',
             url: 'https://barrigarest.wcaquino.me/contas',
