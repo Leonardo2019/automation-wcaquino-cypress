@@ -38,3 +38,32 @@ Cypress.Commands.add('resetApp', () => {
     cy.get(loc.MENU.SETTINGS).click()
     cy.get(loc.MENU.RESET).click()
 })
+
+Cypress.Commands.add('getToken', (user, passwd) => {
+    cy.request({
+        method: 'POST',
+        url: 'https://barrigarest.wcaquino.me/signin',
+
+        body: {
+            email: user,
+            redirecionar: false,
+            senha: passwd
+            }
+
+    }).its('body.token').should('not.be.empty')
+    .then(token => {
+        return token
+    })
+})
+
+Cypress.Commands.add('resetConta', () => {
+    cy.getToken('teste123@123.com', '97251617').then(token => {
+        cy.request({
+            method: 'GET',
+            url: 'https://barrigarest.wcaquino.me/reset',
+            headers: { Authorization: `JWT  ${token}` },
+        }).its('status').should('be.equal', 200)
+
+    })
+   
+})
