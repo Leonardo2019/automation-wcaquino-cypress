@@ -25,6 +25,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm cypress:open
+    - run: npm cypress open
   
-    - run: npm cypress:run
+    - run: npm cypress run
