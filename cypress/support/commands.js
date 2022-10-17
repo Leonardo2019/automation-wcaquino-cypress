@@ -97,4 +97,4 @@ Cypress.Commands.add('getContaByName', name => {
 //     }
 
 //     return originalFunc(...options)
-// })
+// }) Comando para token global
