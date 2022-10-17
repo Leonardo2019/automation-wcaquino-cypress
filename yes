@@ -1,0 +1,84 @@
+[33mcommit 26b31b29b4a5d51aa30fcadbd68f8a8595e04543[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Leonardo Fagner Pires Soares <leonardofps@gmail.com>
+Date:   Mon Oct 17 18:53:37 2022 -0300
+
+    Alteração no comentário
+
+[33mcommit 49bc6b834cd89f6f9abaad3a8fcff19a0adefe63[m
+Author: Leonardo Fagner Pires Soares <lpsoares@fornecedor.qualicorp.com.br>
+Date:   Mon Oct 17 18:30:52 2022 -0300
+
+    Novos cenários Apirest
+
+[33mcommit e40afced632a5540e56752342459deae2a4322a4[m
+Author: Leonardo Fagner Pires Soares <lpsoares@fornecedor.qualicorp.com.br>
+Date:   Sat Oct 15 18:55:09 2022 -0300
+
+    Tirando only do cenário
+
+[33mcommit 4e7dee526eb94fa62e89812ca1707f15d6d50382[m
+Merge: 23e211e af745c8
+Author: Leonardo Fagner Pires Soares <lpsoares@fornecedor.qualicorp.com.br>
+Date:   Sat Oct 15 18:44:44 2022 -0300
+
+    Merge branch 'main' of github.com:Leonardo2019/automation-wcaquino-cypress into main
+
+[33mcommit 23e211e0293f671c878209dc91bee82aec5d431e[m
+Author: Leonardo Fagner Pires Soares <lpsoares@fornecedor.qualicorp.com.br>
+Date:   Sat Oct 15 18:26:15 2022 -0300
+
+    Novos cenarios apirest
+
+[33mcommit af745c828526da4df0fadd56641bb8d93178aa24[m
+Author: Leonardo Soares <61091625+Leonardo2019@users.noreply.github.com>
+Date:   Fri Oct 14 22:33:40 2022 -0300
+
+    Delete .github/workflows directory
+
+[33mcommit 603074aaec564fe0ecf48e5b3157af56935d88fe[m
+Author: Leonardo Soares <61091625+Leonardo2019@users.noreply.github.com>
+Date:   Fri Oct 14 22:32:27 2022 -0300
+
+    Create npm-publish-github-packages.yml
+
+[33mcommit 03aa2d34698f0eb7dd1a5d220614f33482bdc99e[m
+Author: Leonardo Soares <61091625+Leonardo2019@users.noreply.github.com>
+Date:   Fri Oct 14 22:26:53 2022 -0300
+
+    Delete .github/workflows directory
+
+[33mcommit d173d3892a73cdeab41accfd7b8831de0975a488[m
+Author: Leonardo Soares <61091625+Leonardo2019@users.noreply.github.com>
+Date:   Fri Oct 14 22:25:24 2022 -0300
+
+    Update cypressautomation.yml
+
+[33mcommit 4c85cbc3faf553badbe931639f4d62623d050417[m
+Author: Leonardo Soares <61091625+Leonardo2019@users.noreply.github.com>
+Date:   Fri Oct 14 22:23:51 2022 -0300
+
+    Update cypressautomation.yml
+
+[33mcommit 53fb5590e926bc6ca81054a4fe588f77c870ce51[m
+Author: Leonardo Soares <61091625+Leonardo2019@users.noreply.github.com>
+Date:   Fri Oct 14 22:22:04 2022 -0300
+
+    Update cypressautomation.yml
+
+[33mcommit cce6c2993ff55bd5dbf3fbfe237fa322f10af0f2[m
+Author: Leonardo Soares <61091625+Leonardo2019@users.noreply.github.com>
+Date:   Fri Oct 14 22:19:19 2022 -0300
+
+    Update cypressautomation.yml
+
+[33mcommit 8ac633c39fa1a95c3ad26fe48d1345e8ba17f2e1[m
+Author: Leonardo Soares <61091625+Leonardo2019@users.noreply.github.com>
+Date:   Fri Oct 14 22:14:51 2022 -0300
+
+    Create cypressautomation.yml
+
+[33mcommit 6c7480c80f7ee2b384aee5526d0fa5aa753ff093[m
+Author: Leonardo Fagner Pires Soares <lpsoares@fornecedor.qualicorp.com.br>
+Date:   Fri Oct 14 20:59:14 2022 -0300
+
+    Estudando Git
