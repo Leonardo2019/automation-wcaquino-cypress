@@ -32,6 +32,7 @@ describe('Login barriga test', () => {
     })
 
     it('Alterar conta', () => {
+        {timeout: 8000}
         cy.get(loc.MENU.SETTINGS).click()
         cy.get(loc.MENU.CONTAS).click()
         // cy.xpath("//table//td[contains(., 'Conta teste')]/..//i[@class='far fa-edit']").click()
@@ -45,6 +46,7 @@ describe('Login barriga test', () => {
         
     })
     it('Não deve criar conta repetida', () => {
+        {timeout: 8000}
         cy.get(loc.MENU.SETTINGS).click()
         cy.get(loc.MENU.CONTAS).click()
 
