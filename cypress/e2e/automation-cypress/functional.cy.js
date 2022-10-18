@@ -57,26 +57,26 @@ describe('Login barriga test', () => {
         cy.get(loc.MENU.MOVIMENTACAO).click()
 
         cy.get(loc.MOVIMENTACAO.DESCRICAO).type('Desc')
-        cy.get(loc.MOVIMENTACAO.VALOR).type('100')
+        cy.get(loc.MOVIMENTACAO.VALOR).type('100.00',{timeout: 8000})
         cy.get(loc.MOVIMENTACAO.INTERESSADO).type('Remover conta', {timeout: 6000})
         cy.get(loc.MOVIMENTACAO.STATUS).click({timeout: 6000})
         
-        cy.get(loc.MOVIMENTACAO.BTN_SALVAR).click()
-        cy.get(loc.MESSAGE).should('contain', 'Movimentação inserida com sucesso!')
+        cy.get(loc.MOVIMENTACAO.BTN_SALVAR).click({timeout: 8000})
+        cy.get(loc.MESSAGE).should('contain', 'Movimentação inserida com sucesso!', {timeout: 8000})
 
         cy.get(loc.EXTRATO.LINHAS).should('have.length', 7)
-        cy.get(loc.EXTRATO.GET_BUSCA_ELEMENTO).should('exist')
+        cy.get(loc.EXTRATO.GET_BUSCA_ELEMENTO).should('exist', {timeout: 8000})
     })
 
     it('Deve pegar o saldo', () => {
-        cy.get(loc.MENU.HOME).click({timeout: 6000})
-        cy.get(loc.SALDO.GET_SALDO_CONTA).should('contain', '100,00')
+        cy.get(loc.MENU.HOME).click()
+        cy.get(loc.SALDO.GET_SALDO_CONTA).should('contain', '100,00',{timeout: 8000})
     })
 
     it('Deve remover uma movimentação', () => {
-        cy.get(loc.MENU.EXTRATO).click({timeout: 6000})
-        cy.get(loc.EXTRATO.GET_REMOVER_ELEMENTO).click()
-        cy.get(loc.MESSAGE).should('contain', 'Movimentação removida com sucesso!')
+        cy.get(loc.MENU.EXTRATO).click({timeout: 8000})
+        cy.get(loc.EXTRATO.GET_REMOVER_ELEMENTO).click({timeout: 8000})
+        cy.get(loc.MESSAGE).should('contain', 'Movimentação removida com sucesso!',{timeout: 8000})
     })
 
 })
