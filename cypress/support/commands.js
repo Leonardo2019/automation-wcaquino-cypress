@@ -97,4 +97,4 @@ Cypress.Commands.add('getContaByName', name => {
 //     }
 
 //     return originalFunc(...options)
-// }) Comando para variável global token
+// }) Comando variável global token
