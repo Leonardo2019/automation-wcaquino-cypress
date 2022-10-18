@@ -53,7 +53,7 @@ describe('Login barriga test', () => {
         cy.get(loc.MESSAGE).should('contain', 'status code 400')
     })
 
-    it.only('Criar uma transação', () => {
+    it('Criar uma transação', () => {
         cy.get(loc.MENU.MOVIMENTACAO).click()
 
         cy.get(loc.MOVIMENTACAO.DESCRICAO).type('Desc')
@@ -69,12 +69,12 @@ describe('Login barriga test', () => {
     })
 
     it('Deve pegar o saldo', () => {
-        cy.get(loc.MENU.HOME).click()
+        cy.get(loc.MENU.HOME).click({timeout: 6000})
         cy.get(loc.SALDO.GET_SALDO_CONTA).should('contain', '100,00')
     })
 
     it('Deve remover uma movimentação', () => {
-        cy.get(loc.MENU.EXTRATO).click()
+        cy.get(loc.MENU.EXTRATO).click({timeout: 6000})
         cy.get(loc.EXTRATO.GET_REMOVER_ELEMENTO).click()
         cy.get(loc.MESSAGE).should('contain', 'Movimentação removida com sucesso!')
     })
